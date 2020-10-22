@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "4ee5f5b4-ea61-4c7d-b467-193c0ef493ba",
+		"name": "APIArtist",
+		"description": "iPlatformMU, Backend assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAlbumByArtisID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://localhost:44304/artist/f82f3a3e-29c2-42ca-b589-bc5dc210fa9e/albums",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44304",
+					"path": [
+						"artist",
+						"f82f3a3e-29c2-42ca-b589-bc5dc210fa9e",
+						"albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetReleasesByArtisID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://localhost:44304/artist/f82f3a3e-29c2-42ca-b589-bc5dc210fa9e/releases",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44304",
+					"path": [
+						"artist",
+						"f82f3a3e-29c2-42ca-b589-bc5dc210fa9e",
+						"releases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getArtistByID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://localhost:44304/artist/650e7db6-b795-4eb5-a702-5ea2fc46c848",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44304",
+					"path": [
+						"artist",
+						"650e7db6-b795-4eb5-a702-5ea2fc46c848"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllArtistFromDB",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://localhost:44304/artists",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44304",
+					"path": [
+						"artists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SearchArtistByCriteria",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://localhost:44304/artist/search/joh",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44304",
+					"path": [
+						"artist",
+						"search",
+						"joh"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
